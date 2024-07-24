@@ -109,7 +109,7 @@ async function analyseDimensionsFromPdf(pdfFile ,res) {
     {
     "role": "user",
     "content": [
-    { "type": "text", "text": "if the image is non-dimensional then respond 'this file is not related to this platfrom' otherwise use information from file search(Costing.pdf),Assists with quantity surveying by analyzing drawings, calculating materials and costs in a casual tone. Firstly give the information about the image and then calculate the cost." },
+    { "type": "text", "text": "if the image is non-dimensional then respond 'this file is not related to this platfrom' otherwise use information from file search(Costing.pdf),Assists with quantity surveying by analyzing drawings, calculating materials and costs in a casual tone. Firstly give the information about the image and then calculate the cost accordingly." },
     ...storeUploadedFileObj.map(imgFile => ({ "type": "image_file", "image_file": { "file_id": imgFile.id } }))
     ]}]});
 
